@@ -1,15 +1,15 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import connectDb from "../config/db-config.js"; 
-import user_router from "../routes/user_routes.js";
-import credit_router from "../routes/credit_router.js";
+import connectDb from "./config/db-config.js"; 
+import user_router from "./routes/user_routes.js";
+import credit_router from "./routes/credit_router.js";
 import bodyParser from "body-parser";
-import admin_router from "../routes/admin_router.js";
-import doctor_router from "../routes/doctor_router.js";
-import appointment_router from "../routes/appointment_router.js";
-import patient_router from "../routes/patient_router.js";
-import payout_router from "../routes/payout_router.js";
+import admin_router from "./routes/admin_router.js";
+import doctor_router from "./routes/doctor_router.js";
+import appointment_router from "./routes/appointment_router.js";
+import patient_router from "./routes/patient_router.js";
+import payout_router from "./routes/payout_router.js";
 
 
 dotenv.config();
